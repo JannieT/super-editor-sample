@@ -1,0 +1,25 @@
+name: super_simple
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.2.5 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # super_editor: ^0.2.6
+  # https://github.com/superlistapp/super_editor/issues/1729#issuecomment-1872676396
+  super_editor:
+    git:
+      url: https://github.com/superlistapp/super_editor.git
+      path: super_editor
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
