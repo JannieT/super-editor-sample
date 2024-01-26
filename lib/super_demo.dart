@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:super_editor/super_editor.dart';
 
-/// Example of a horizontal rule component that is not directly selectable.
-///
-/// The user can select around the horizontal rule, but cannot select it, specifically.
+/// Document with a single paragraph
 class SuperDemo extends StatefulWidget {
   const SuperDemo({super.key});
 
